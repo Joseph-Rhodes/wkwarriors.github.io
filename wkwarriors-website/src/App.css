@@ -18,16 +18,14 @@ header {
   background-color: black;
   align-items: center;
   padding: 10px 20px;
-  /* Remove the max-width and margin properties */
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
   text-decoration: none;
   color: white;
   font-size: 25px;
-  color: inherit;
   margin-right: 20px;
 }
 
@@ -47,14 +45,14 @@ header {
 .desktop-nav .menu-items a {
   display: block;
   font-size: inherit;
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 .desktop-nav .menu-items button {
   display: flex;
   align-items: center;
-  color: inherit;
+  color: white;
   font-size: inherit;
   border: none;
   background-color: transparent;
@@ -74,7 +72,7 @@ header {
 
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
-  background-color: #f2f2f2;
+  background-color: #333; /* Slightly lighter black for hover effect */
 }
 
 .desktop-nav .arrow::after {
@@ -82,7 +80,7 @@ header {
   display: inline-block;
   margin-left: 0.28em;
   vertical-align: 0.09em;
-  border-top: 0.42em solid;
+  border-top: 0.42em solid white;
   border-right: 0.32em solid transparent;
   border-left: 0.32em solid transparent;
 }
@@ -98,7 +96,7 @@ header {
   min-width: 10rem;
   padding: 0.5rem 0;
   list-style: none;
-  background-color: #fff;
+  background-color: black;
   border-radius: 0.5rem;
   display: none;
 }
@@ -111,6 +109,16 @@ header {
   position: absolute;
   left: 100%;
   top: -7px;
+}
+
+.desktop-nav .dropdown a {
+  color: white;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+}
+
+.desktop-nav .dropdown a:hover {
+  background-color: #333; /* Slightly lighter black for hover effect */
 }
 
 .mobile-nav {
@@ -132,7 +140,7 @@ header {
     display: block;
   }
   .mobile-nav .mobile-nav__menu-button {
-    color: inherit;
+    color: white;
     font-size: inherit;
     border: none;
     background-color: transparent;
@@ -149,21 +157,21 @@ header {
     z-index: 9999;
     min-width: 12rem;
     padding: 0.5rem 0;
-    background-color: #fff;
+    background-color: black;
     border-radius: 0.5rem;
   }
 
   .mobile-nav .menu-items a {
     display: block;
     font-size: inherit;
-    color: inherit;
+    color: white;
     text-decoration: none;
   }
 
   .mobile-nav .menu-items button {
     display: flex;
     align-items: center;
-    color: inherit;
+    color: white;
     font-size: inherit;
     border: none;
     background-color: transparent;
@@ -179,7 +187,7 @@ header {
 
   .mobile-nav .menu-items a:hover,
   .mobile-nav .menu-items button:hover {
-    background-color: #f2f2f2;
+    background-color: #333; /* Slightly lighter black for hover effect */
   }
 
   .mobile-nav .arrow::after {
@@ -187,7 +195,7 @@ header {
     display: inline-block;
     margin-left: 1.2em;
     vertical-align: 0.09em;
-    border-top: 0.42em solid;
+    border-top: 0.42em solid white;
     border-right: 0.32em solid transparent;
     border-left: 0.32em solid transparent;
   }
@@ -196,7 +204,7 @@ header {
     display: inline-block;
     margin-left: 1.2em;
     vertical-align: 0.09em;
-    border-bottom: 0.42em solid;
+    border-bottom: 0.42em solid white;
     border-right: 0.32em solid transparent;
     border-left: 0.32em solid transparent;
   }
@@ -211,6 +219,16 @@ header {
 
   .mobile-nav .dropdown.show {
     display: block;
+  }
+
+  .mobile-nav .dropdown a {
+    color: white;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+  }
+
+  .mobile-nav .dropdown a:hover {
+    background-color: #333; /* Slightly lighter black for hover effect */
   }
 }
 
