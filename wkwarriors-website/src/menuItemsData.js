@@ -1,0 +1,58 @@
+export const menuItemsData = [
+  {
+    title: 'Team',
+    url: '/roster',
+    submenu: [
+      {
+        title: 'Roster',
+        url: 'roster',
+      },
+      {
+        title: 'Team Leaders',
+        url: 'teamleaders',
+      },
+      {
+        title: 'Stats',
+        url: 'stats',
+      },
+    ],
+  },
+  {
+    title: 'Schedule',
+    url: '/schedule',
+    submenu: [
+      {
+        title: 'Online Schedule',
+        url: 'schedule',
+      },
+      {
+        title: 'Printable Schedule',
+        url: 'printableschedule',
+      },
+      
+    ],
+  },
+  {
+    title: 'News',
+    url: '/news',
+    submenu: [
+      {
+        title: 'Latest News',
+        url: 'news',
+      },
+      {
+        title: 'Pictures',
+        url: 'pictures',
+      },
+      {
+        title: 'Videos',
+        url: 'videos',
+      },
+      
+    ],
+  },
+  {
+    title: 'Shop',
+    url: '/shop',
+  },
+];
