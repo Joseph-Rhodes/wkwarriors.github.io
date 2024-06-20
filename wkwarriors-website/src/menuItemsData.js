@@ -41,8 +41,23 @@ export const menuItemsData = [
         url: 'news',
       },
       {
-        title: 'Pictures',
-        url: 'pictures',
+        title: 'Player News',
+        url: 'playernews',
+      },
+      {
+        title: 'Coaches News',
+        url: 'coachesnews',
+      },
+      
+    ],
+  },
+  {
+    title: 'Media',
+    url: '/photos',
+    submenu: [
+      {
+        title: 'Photos',
+        url: 'photos',
       },
       {
         title: 'Videos',
@@ -50,9 +65,5 @@ export const menuItemsData = [
       },
       
     ],
-  },
-  {
-    title: 'Shop',
-    url: '/shop',
   },
 ];

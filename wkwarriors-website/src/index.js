@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import "./App.css";
 
@@ -16,9 +18,10 @@ import Stats from "./Pages/Team/Stats";
 import Schedule from "./Pages/Schedule";
 import PrintableSchedule from "./Pages/Schedule/PrintableSchedule";
 import News from "./Pages/News";
-import Pictures from "./Pages/News/Pictures";
-import Videos from "./Pages/News/Videos";
-import Shop from "./Pages/Shop";
+import PlayerNews from "./Pages/News/PlayerNews";
+import { CoachesNews } from "./Pages/News/CoachesNews";
+import Photos from "./Pages/Media/Photos";
+import Videos from "./Pages/Media/Videos";
 
 
 const router = createBrowserRouter([
@@ -59,16 +62,20 @@ const router = createBrowserRouter([
         element: <News />,
       },
       {
-        path: "pictures",
-        element: <Pictures />,
+        path: "playernews",
+        element: <PlayerNews />,
+      },
+      {
+        path: "coachesnews",
+        element: <CoachesNews />,
+      },
+      {
+        path: "photos",
+        element: <Photos />,
       },
       {
         path: "videos",
         element: <Videos />,
-      },
-      {
-        path: "shop",
-        element: <Shop />,
       },
     ],
   },

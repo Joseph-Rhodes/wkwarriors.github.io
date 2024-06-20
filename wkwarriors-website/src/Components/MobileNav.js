@@ -16,7 +16,6 @@ const MobileNav = () => {
     document.addEventListener("mousedown", handler);
     document.addEventListener("touchstart", handler);
     return () => {
-      // Cleanup the event listener
       document.removeEventListener("mousedown", handler);
       document.removeEventListener("touchstart", handler);
     };
@@ -27,25 +26,39 @@ const MobileNav = () => {
       <button
         className="mobile-nav__menu-button"
         type="button"
-        onClick={() => setShowMenu((prev) => !prev)}>
-        Menu
+        onClick={() => setShowMenu((prev) => !prev)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
-      {showMenu && (
-        <ul className="menus" ref={ref}>
-          {menuItemsData.map((menu, index) => {
-            return (
-              <MobileMenuItems
-                items={menu}
-                key={index}
-                depthLevel={depthLevel}
-                showMenu={showMenu}
-                setShowMenu={setShowMenu}
-              />
-            );
-          })}
+      <div className={`sidebar ${showMenu ? "show" : ""}`} ref={ref}>
+        <button
+          className="close-button"
+          type="button"
+          onClick={() => setShowMenu(false)}
+        >
+          &times;
+        </button>
+        <ul className="menu-items">
+          {menuItemsData.map((menu, index) => (
+            <MobileMenuItems
+              items={menu}
+              key={index}
+              depthLevel={depthLevel}
+              showMenu={showMenu}
+              setShowMenu={setShowMenu}
+            />
+          ))}
         </ul>
-      )}
+        <div className="social-icons">
+          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/warriorswk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+        </div>
+      </div>
     </nav>
   );
 };
