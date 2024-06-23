@@ -1,0 +1,92 @@
+.upcoming-schedule {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 1200;
+  position: relative;
+  display: inline-block;
+}
+
+.title:before,
+.title:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: white; /* red color */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title:before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.title:after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+.games-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.game-item {
+  background: white;
+  border: 1px solid #ddd;
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 1000;
+  color: black;
+}
+
+.game-item p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.schedule-button {
+  background-color: white;
+  color: black;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 1000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-button:hover {
+  background-color: lightgray;
+  font-size: 1.2rem;
+}

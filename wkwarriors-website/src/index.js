@@ -11,7 +11,6 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Pages/Root";
 import ErrorPage from "./error-page";
-import Home from "./Pages/Home";
 import Team from "./Pages/Team";
 import TeamLeader from "./Pages/Team/TeamLeaders";
 import Stats from "./Pages/Team/Stats";
@@ -23,6 +22,8 @@ import { CoachesNews } from "./Pages/News/CoachesNews";
 import Photos from "./Pages/Media/Photos";
 import Videos from "./Pages/Media/Videos";
 
+import WoolstonWizardsJ21 from "./Components/Games/WoolstonWizardsJ21";
+
 
 const router = createBrowserRouter([
   {
@@ -32,10 +33,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <App />,
-      },
-      {
-        path: "home",
-        element: <Home />,
       },
       {
         path: "roster",
@@ -76,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: "videos",
         element: <Videos />,
+      },
+      {
+        path: "woolstonwizardsJ21",
+        element: <WoolstonWizardsJ21 />,
       },
     ],
   },
