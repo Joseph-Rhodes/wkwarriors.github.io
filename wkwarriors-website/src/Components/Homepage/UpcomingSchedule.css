@@ -1,6 +1,10 @@
-.upcoming-schedule {
+.upcoming-schedule-container {
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
-  padding: 20px;
+  padding-top: 75px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .title {
@@ -16,7 +20,7 @@
   content: "";
   width: 50px;
   height: 2px;
-  background-color: white; /* red color */
+  background-color: white; 
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -43,9 +47,10 @@
   border: 1px solid #ddd;
   color: black;
   border-radius: 8px;
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   width: 30%;
-  margin: 10px;
+  margin: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -80,13 +85,14 @@
   padding: 10px 20px;
   border: none;
   font-size: 1rem;
-  font-weight: 1000;
+  font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .schedule-button:hover {
   background-color: lightgray;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }

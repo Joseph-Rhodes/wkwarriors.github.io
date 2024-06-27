@@ -173,9 +173,8 @@ header {
 
 /* page content */
 .content {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 20px;
+  padding: 3rem 7rem;
 }
 
 .content h1 {
@@ -386,7 +385,4 @@ header {
   }
 }
 
-/* THIS WILL BE FOR FOOTER */
-
-/* Filename - components/Footer.css */
 
