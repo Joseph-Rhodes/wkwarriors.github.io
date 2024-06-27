@@ -1,0 +1,111 @@
+.media-section {
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75px;
+}
+
+.section-title {
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  min-width: 22%;
+  box-sizing: border-box;
+  position: relative;
+  margin: 15px;
+}
+
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.01);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-image-container:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-content {
+  background: #fff;
+  padding: 10px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  color: #000;
+  border: none;
+  width: 50px;  /* Increase the width */
+  height: 50px;  /* Increase the height */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.nav-button::before {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;  /* Ensure line-height is 1 to center text vertically */
+}
+
+.nav-button.prev::before {
+  content: "<";
+}
+
+.nav-button.next::before {
+  content: ">";
+}
+
+.nav-button.prev {
+  left: 25px;
+}
+
+.nav-button.next {
+  right: 25px;
+}
+
+.nav-button:hover {
+  background: #f0f0f0;
+}
