@@ -1,11 +1,10 @@
 .upcoming-schedule-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 125px;
   text-align: center;
-  padding-top: 100px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 75px;
 }
 
 .title {
@@ -45,7 +44,7 @@
 }
 
 .game-item {
-  background: lightgray;
+  background: white;
   border: 1px solid #ddd;
   color: black;
   border-radius: 8px;
@@ -97,4 +96,16 @@
 .schedule-button:hover {
   background-color: lightgray;
   font-size: 1.1rem;
+}
+
+/* Media query to stack game items */
+@media (max-width: 768px) {
+  .games-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-item {
+    width: 80%;
+  }
 }

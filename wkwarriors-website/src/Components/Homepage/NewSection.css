@@ -1,0 +1,169 @@
+.news-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.news-image {
+  flex: 2;
+}
+
+.news-image img {
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 100%;
+  max-height: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.news-content {
+  flex: 2;
+}
+
+.news-date-category {
+  padding-top: 5%;
+  font-size: 0.75rem;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.news-content h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.news-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.news-content a {
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-article:hover {
+  text-decoration: underline;
+}
+
+.article-titles {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.article-title {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.article-title:hover {
+  background-color: white;
+  color: black;
+}
+
+.article-title.active {
+  border-bottom: 2px solid white;
+}
+
+.navs-button {
+  position: absolute;
+  top: 57.5%;
+  transform: translateY(-50%);
+  background: #fff;
+  color: #000;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.navs-button.left {
+  left: 0rem;
+  font-size: larger;
+}
+
+.navs-button.right {
+  right: 0rem;
+  font-size: larger;
+}
+
+.navs-button:hover {
+  background: #f0f0f0;
+}
+
+/* Smaller Windows */
+@media (max-width: 1000px) {
+  .news-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .news-image {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .news-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .news-content {
+    max-width: 100%;
+  }
+
+  .news-content h1 {
+    font-size: 3rem;
+  }
+
+  .news-content p {
+    font-size: 1.2rem;
+  }
+
+  .news-content a {
+    font-size: 1.5rem;
+  }
+
+  .article-titles {
+    margin-top: 75px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navs-button.left,
+  .navs-button.right {
+    position: absolute;
+    top: auto;
+    transform: none;
+    margin: 10px 0;
+    width: 2rem;
+    height: 2rem;
+  }
+}
