@@ -27,7 +27,7 @@
 .news-date-category {
   padding-top: 5%;
   font-size: 0.75rem;
-  color: grey;
+  color: lightgrey;
   margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@
 .news-content p {
   font-size: 1rem;
   margin-bottom: 20px;
-  color: grey;
+  color: lightgray;
 }
 
 .news-content a {
