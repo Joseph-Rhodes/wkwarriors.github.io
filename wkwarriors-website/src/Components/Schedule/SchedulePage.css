@@ -21,7 +21,7 @@
   width: 150px;
   padding: 10px;
   border: none;
-  background: #f0f0f0;
+  background: white;
   color: #000;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
@@ -39,12 +39,12 @@
 }
 
 .toggle-button.active {
-  background: rgb(184, 184, 184); /* Changed to grey */
+  background: #f0f0f0d2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .toggle-button:not(.active):hover {
-  background: #e0e0e0;
+  background: #f0f0f0;
 }
 
 .title {
