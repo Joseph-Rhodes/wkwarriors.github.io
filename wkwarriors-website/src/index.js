@@ -12,7 +12,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Pages/Root";
 import ErrorPage from "./error-page";
 import Team from "./Pages/Team";
-import TeamLeader from "./Pages/Team/TeamLeaders";
+import TeamRecords from "./Pages/Team/TeamRecords";
 import Stats from "./Pages/Team/Stats";
 import Schedule from "./Pages/Schedule";
 import PrintableSchedule from "./Pages/Schedule/PrintableSchedule";
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         element: <Team />,
       },
       {
-        path: "teamleaders",
-        element: <TeamLeader />,
+        path: "teamrecords",
+        element: <TeamRecords />,
       },
       {
         path: "stats",

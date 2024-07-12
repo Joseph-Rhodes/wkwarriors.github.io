@@ -1,9 +1,9 @@
 import React from 'react'
-import TeamLeaderPage from '../../Components/TeamLeader/TeamLeaderPage'
+import TeamRecordsPage from '../../Components/TeamRecords/TeamRecordsPage'
 
 const TeamLeaders = () => {
   return (
-    <TeamLeaderPage />
+    <TeamRecordsPage />
   )
 }
 

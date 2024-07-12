@@ -1,0 +1,89 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 1rem auto;
+}
+
+.stats-container-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.stats-container-header h1 {
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.stats-table-header-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.stats-table-header-container h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.player-position {
+  font-size: 0.75rem;
+  color: lightgray;
+}
+
+.teamleader-player-position {
+  font-size: 0.75rem;
+  color: lightgray;
+}
+
+.team-leaders {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 4rem;
+  border: 1px solid #ddd;
+}
+
+.leader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamleader-category {
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-bottom: 1px solid white;
+}
+
+.player-stats,
+.shooting-stats {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: none;
+  padding: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+th:hover{
+    background-color: #f0f0f0e0;
+}

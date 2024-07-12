@@ -8,12 +8,12 @@ export const menuItemsData = [
         url: 'roster',
       },
       {
-        title: 'Team Leaders',
-        url: 'teamleaders',
-      },
-      {
         title: 'Stats',
         url: 'stats',
+      },
+      {
+        title: 'Team Records',
+        url: 'teamrecords',
       },
     ],
   },

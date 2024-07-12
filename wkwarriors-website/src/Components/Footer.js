@@ -12,8 +12,8 @@ function Footer() {
             <h4>Team</h4>
             <ul className="list-unstyled">
               <li><Link to="/roster">Roster</Link></li>
-              <li><Link to="/teamleaders">Team Leaders</Link></li>
               <li><Link to="/stats">Stats</Link></li>
+              <li><Link to="/teamleaders">Team Leaders</Link></li>
             </ul>
           </div>
           {/* Column2 */}
