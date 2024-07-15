@@ -1,0 +1,51 @@
+.team-records {
+  font-family: Arial, sans-serif;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.player img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.stats {
+  text-align: left;
+}
+
+.stats h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.stats h3 span {
+  font-size: 0.5em;
+}
+
+.stats p {
+  margin: 0;
+}
+
+.stats strong {
+  font-weight: bold;
+}
