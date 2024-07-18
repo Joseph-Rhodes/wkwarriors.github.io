@@ -11,7 +11,8 @@
   padding-top: 3em;
   position: relative;
   bottom: 0;
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-footer h4 {
@@ -44,7 +45,7 @@
 .social {
   display: flex;
   flex-direction: column; /* Stack the social icons vertically */
-  margin-left: 20%;
+  margin-left: 18%;
 }
 
 .social li {

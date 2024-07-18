@@ -1,0 +1,205 @@
+.roster-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 1rem auto;
+}
+
+.roster-container-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roster-container-header h1 {
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.list-button {
+  padding: 5px 10px;
+  background-color: white; 
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.list-button:hover {
+  background-color: #f0f0f0e0; 
+}
+
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 2px solid white;
+}
+
+.player-card {
+  position: relative;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.player-card img {
+  width: 100%;
+  height: 400px; /* Set the desired height */
+  object-fit: cover;
+}
+
+.player-card-title {
+  background-color: white;
+  color: black;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.player-name{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.player-number{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+}
+
+.player-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.player-card:hover .player-info {
+  transform: translateY(0);
+}
+
+.coach-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.coach-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coach-card img {
+  width: 100%;
+  height: 400px; /* Set the desired height */
+  object-fit: cover;
+}
+
+.coach-card-title {
+  background-color: white;
+  color: black;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+
+.coach-name{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.coach-title{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .player-container, .coach-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .player-container, .coach-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.list-view {
+  width: 100%;
+}
+
+
+.list-view table {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.list-view th, .list-view td {
+  border: none;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.list-view th {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+
+.players-table{
+  width: 100%;
+}
+
+.players-table th{
+  cursor: pointer;
+}
+
+.players-table th:hover {
+  background-color: #f0f0f0e0; 
+  color: #333; 
+}
+
+.coaches-table {
+  margin-top: 5rem;
+  width: 30%; /* Adjust width as needed */
+}

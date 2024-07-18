@@ -1,8 +1,9 @@
 import React from 'react'
+import SchedulePage from '../Components/Schedule/SchedulePage'
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <SchedulePage />
   )
 }
 

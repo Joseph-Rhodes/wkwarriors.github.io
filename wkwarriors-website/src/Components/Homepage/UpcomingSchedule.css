@@ -1,15 +1,16 @@
 .upcoming-schedule-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 125px;
   text-align: center;
-  padding-top: 75px;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 .title {
   font-size: 3em;
   margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 1200;
   position: relative;
   display: inline-block;
@@ -20,7 +21,7 @@
   content: "";
   width: 50px;
   height: 2px;
-  background-color: white; 
+  background-color: white;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -93,6 +94,18 @@
 }
 
 .schedule-button:hover {
-  background-color: lightgray;
+  background-color: #f0f0f0e0;
   font-size: 1.1rem;
+}
+
+/* Media query to stack game items */
+@media (max-width: 768px) {
+  .games-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-item {
+    width: 80%;
+  }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import FoundationImage from '../../Images/teamPhoto.png'; // Ensure the path and file name are correct
+import FoundationImage from '../../Images/Screenshot 2024-06-28 at 17.41.01.png'; // Ensure the path and file name are correct
 import { Link } from 'react-router-dom';
 
 const AboutUs = () => {

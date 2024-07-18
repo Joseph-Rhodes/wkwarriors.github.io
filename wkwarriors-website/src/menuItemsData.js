@@ -8,12 +8,12 @@ export const menuItemsData = [
         url: 'roster',
       },
       {
-        title: 'Team Leaders',
-        url: 'teamleaders',
-      },
-      {
         title: 'Stats',
         url: 'stats',
+      },
+      {
+        title: 'Team Records',
+        url: 'team-records',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const menuItemsData = [
       },
       {
         title: 'Printable Schedule',
-        url: 'printableschedule',
+        url: 'printable-schedule',
       },
       
     ],
@@ -38,15 +38,7 @@ export const menuItemsData = [
     submenu: [
       {
         title: 'Latest News',
-        url: 'news',
-      },
-      {
-        title: 'Player News',
-        url: 'playernews',
-      },
-      {
-        title: 'Coaches News',
-        url: 'coachesnews',
+        url: 'latest-news',
       },
       
     ],

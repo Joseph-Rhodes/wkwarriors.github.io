@@ -12,8 +12,8 @@ function Footer() {
             <h4>Team</h4>
             <ul className="list-unstyled">
               <li><Link to="/roster">Roster</Link></li>
+              <li><Link to="/stats">Stats</Link></li>
               <li><Link to="/teamleaders">Team Leaders</Link></li>
-              <li><Link to="/stats">Statistics</Link></li>
             </ul>
           </div>
           {/* Column2 */}
@@ -43,7 +43,7 @@ function Footer() {
           </div>
           {/* Column5 */}
           <div className="col">
-            <h4>Contact US</h4>
+            <h4>Connect</h4>
             <ul className="list-unstyled social">
               <li>
                 <a href="#">

@@ -1,0 +1,139 @@
+.schedule-page {
+  padding: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.schedule-title-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid white;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 50px;
+}
+
+.toggle-button {
+  width: 7rem;
+  padding: 10px;
+  border: none;
+  background: white;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 0;
+}
+
+.toggle-button:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.toggle-button:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.toggle-button.active {
+  background: #f0f0f0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-button:not(.active):hover {
+  background: #f0f0f0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.opponent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.opponent-item {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+}
+
+.opponent-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid lightgray;
+}
+
+.typeOfGame {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.date-time {
+  padding-top: 8px;
+}
+
+.opponent-body {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.home-away {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.opponent-team-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+
+.opponent-team-name {
+  font-size: 1.3rem;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.score-win {
+  color: green;
+}
+
+.score-loss {
+  color: red;
+}
+
+
+.opponent-footer {
+  display: flex;
+  font-size: 14px;
+  color: #666;
+}
+
+.location {
+  margin-left: auto;
+}
+
+.past-games {
+  text-align: center;
+}
