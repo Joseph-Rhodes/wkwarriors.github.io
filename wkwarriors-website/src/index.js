@@ -17,8 +17,7 @@ import Stats from "./Pages/Team/Stats";
 import Schedule from "./Pages/Schedule";
 import PrintableSchedule from "./Pages/Schedule/PrintableSchedule";
 import News from "./Pages/News";
-import PlayerNews from "./Pages/News/PlayerNews";
-import { CoachesNews } from "./Pages/News/CoachesNews";
+import LatestNews from "./Pages/News/LatestNews";
 import Photos from "./Pages/Media/Photos";
 import Videos from "./Pages/Media/Videos";
 
@@ -39,7 +38,7 @@ const router = createBrowserRouter([
         element: <Team />,
       },
       {
-        path: "teamrecords",
+        path: "team-records",
         element: <TeamRecords />,
       },
       {
@@ -51,7 +50,7 @@ const router = createBrowserRouter([
         element: <Schedule />,
       },
       {
-        path: "printableschedule",
+        path: "printable-schedule",
         element: <PrintableSchedule />,
       },
       {
@@ -59,12 +58,8 @@ const router = createBrowserRouter([
         element: <News />,
       },
       {
-        path: "playernews",
-        element: <PlayerNews />,
-      },
-      {
-        path: "coachesnews",
-        element: <CoachesNews />,
+        path: "latest-news",
+        element: <LatestNews />,
       },
       {
         path: "photos",

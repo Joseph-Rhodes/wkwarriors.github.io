@@ -13,7 +13,7 @@ export const menuItemsData = [
       },
       {
         title: 'Team Records',
-        url: 'teamrecords',
+        url: 'team-records',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const menuItemsData = [
       },
       {
         title: 'Printable Schedule',
-        url: 'printableschedule',
+        url: 'printable-schedule',
       },
       
     ],
@@ -38,15 +38,7 @@ export const menuItemsData = [
     submenu: [
       {
         title: 'Latest News',
-        url: 'news',
-      },
-      {
-        title: 'Player News',
-        url: 'playernews',
-      },
-      {
-        title: 'Coaches News',
-        url: 'coachesnews',
+        url: 'latest-news',
       },
       
     ],

@@ -1,14 +1,34 @@
-.team-records {
-  font-family: Arial, sans-serif;
+/* Base styles */
+.team-records-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 1rem auto;
+}
+
+.team-records-container-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.team-records-container-header h1 {
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .category {
-  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 5rem;
 }
 
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.category h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .record {
@@ -18,34 +38,97 @@ h2 {
 
 .player {
   display: flex;
-  align-items: center;
-  width: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  /* border-bottom: 1px solid white; */
 }
 
-.player img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 10px;
+.player.large {
+  flex: 2;
+  border-right: 1px solid white;
 }
 
-.stats {
+.player.small {
+  flex: 1;
+  border-right: 1px solid white;
+}
+
+.player.small2 {
+  flex: 1;
+}
+
+.team-records {
   text-align: left;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 
-.stats h3 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.stats h3 span {
-  font-size: 0.5em;
-}
-
-.stats p {
-  margin: 0;
-}
-
-.stats strong {
+.team-records h3 {
+  font-size: 3.5rem;
   font-weight: bold;
+  margin: 0;
+}
+
+.team-records span {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.first-name {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.team-records strong {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 950px) {
+  .record {
+    flex-direction: column;
+  }
+
+  .player.large, .player.small, .player.small2 {
+    border-right: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+
+  .player.large {
+    flex: 1;
+  }
+
+  .player.small {
+    flex: 1;
+  }
+
+  .player.small2 {
+    flex: 1;
+  }
+
+  .team-records {
+    position: static;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .player img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
 }
