@@ -1,8 +1,9 @@
 import React from 'react'
+import NewsPage from '../Components/News/NewsPage'
 
 const News = () => {
   return (
-    <div>News</div>
+    <NewsPage/>
   )
 }
 

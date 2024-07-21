@@ -13,24 +13,22 @@ function Footer() {
             <ul className="list-unstyled">
               <li><Link to="/roster">Roster</Link></li>
               <li><Link to="/stats">Stats</Link></li>
-              <li><Link to="/teamleaders">Team Leaders</Link></li>
+              <li><Link to="/team-records">Team Records</Link></li>
             </ul>
           </div>
           {/* Column2 */}
           <div className="col">
             <h4>Schedule</h4>
             <ul className="list-unstyled">
-              <li><Link to="/schedule">Online</Link></li>
-              <li><Link to="/printableschedule">Print the schedule</Link></li>
+              <li><Link to="/schedule">Online Schedule</Link></li>
+              <li><Link to="/printable-schedule">Print the schedule</Link></li>
             </ul>
           </div>
           {/* Column3 */}
           <div className="col">
             <h4>News</h4>
             <ul className="list-unstyled">
-              <li><Link to="/news">Latest News</Link></li>
-              <li><Link to="/playernews">Player News</Link></li>
-              <li><Link to="/coachesnews">Coaches News</Link></li>
+              <li><Link to="/latest-news">Latest News</Link></li>
             </ul>
           </div>
           {/* Column4 */}
