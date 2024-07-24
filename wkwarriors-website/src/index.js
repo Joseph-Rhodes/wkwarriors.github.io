@@ -22,6 +22,14 @@ import Photos from "./Pages/Media/Photos";
 import Videos from "./Pages/Media/Videos";
 
 import WoolstonWizardsJ21 from "./Components/Games/WoolstonWizardsJ21";
+import Article1 from "./Components/Articles/Article1";
+import Article2 from "./Components/Articles/Article2";
+import Article3 from "./Components/Articles/Article3";
+import Article4 from "./Components/Articles/Article4";
+import Article5 from "./Components/Articles/Article5";
+import Article6 from "./Components/Articles/Article6";
+import Article7 from "./Components/Articles/Article7";
+import Article8 from "./Components/Articles/Article8";
 
 
 const router = createBrowserRouter([
@@ -72,6 +80,38 @@ const router = createBrowserRouter([
       {
         path: "woolstonwizardsJ21",
         element: <WoolstonWizardsJ21 />,
+      },
+      {
+        path: "/latest-news/article1",
+        element: <Article1 />,
+      },
+      {
+        path: "/latest-news/article2",
+        element: <Article2 />,
+      },
+      {
+        path: "/latest-news/article3",
+        element: <Article3 />,
+      },
+      {
+        path: "/latest-news/article4",
+        element: <Article4 />,
+      },
+      {
+        path: "/latest-news/article5",
+        element: <Article5 />,
+      },
+      {
+        path: "/latest-news/article6",
+        element: <Article6 />,
+      },
+      {
+        path: "/latest-news/article7",
+        element: <Article7 />,
+      },
+      {
+        path: "/latest-news/article8",
+        element: <Article8 />,
       },
     ],
   },

@@ -1,0 +1,21 @@
+.news-item {
+  /* display: flex; */
+  flex-direction: column;
+  background-color: black;
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color: white;
+}
+
+.news-item-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.news-item-title {
+  font-size: 1rem;
+  margin: 1rem 0;
+}

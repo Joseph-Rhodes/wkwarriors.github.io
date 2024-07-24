@@ -1,8 +1,9 @@
 import React from 'react'
+import VideoPage from '../../Components/Video/VideoPage'
 
 const Videos = () => {
   return (
-    <div>Videos</div>
+    <VideoPage />
   )
 }
 

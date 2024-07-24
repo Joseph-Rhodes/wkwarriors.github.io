@@ -7,7 +7,8 @@ const SchedulePage = () => {
   return (
     <div className="schedule-page">
       <div className="schedule-title-header">
-        West Kirby Warriors 2024-2025 Schedule
+        <h1>West Kirby Warriors 2024-2025 Schedule</h1>
+        
       </div>
       <div className="schedule-header">
         <button
