@@ -20,6 +20,7 @@ import News from "./Pages/News";
 import LatestNews from "./Pages/News/LatestNews";
 import Photos from "./Pages/Media/Photos";
 import Videos from "./Pages/Media/Videos";
+import GalleryPage from "./Components/Photos/GalleryPage";
 
 import WoolstonWizardsJ21 from "./Components/Games/WoolstonWizardsJ21";
 import Article1 from "./Components/Articles/Article1";
@@ -112,6 +113,10 @@ const router = createBrowserRouter([
       {
         path: "/latest-news/article8",
         element: <Article8 />,
+      },
+      {
+        path: "gallery/:id",
+        element: <GalleryPage />,
       },
     ],
   },

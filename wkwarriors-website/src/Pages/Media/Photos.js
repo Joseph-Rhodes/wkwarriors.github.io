@@ -1,8 +1,9 @@
 import React from 'react'
+import PhotosPage from '../../Components/Photos/PhotosPage'
 
 const Photos = () => {
   return (
-    <div>Photos</div>
+    <PhotosPage />
   )
 }
 
