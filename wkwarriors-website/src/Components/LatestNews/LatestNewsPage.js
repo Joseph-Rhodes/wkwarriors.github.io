@@ -5,42 +5,42 @@ import "./LatestNewsPage.css";
 
 const newsData = [
   {
-    title: "LA Galaxy Forward Gabriel Pec Added to 2024 MLS All-Star Roster",
+    title: "West Kirby Warriors Forward Gabriel Pec Added to 2024 All-Star Roster",
     imageUrl: "../../Images/teamPhoto.png",
     path: "article1",
   },
   {
-    title: "LA Galaxy Forward Gabriel Pec Added to 2024 MLS All-Star Roster",
+    title: "West Kirby Warriors Forward Gabriel Pec Added to 2024 All-Star Roster",
     imageUrl: "../../Images/teamPhoto.png",
     path: "article2",
   },
   {
-    title: "LA Galaxy Forward Gabriel Pec Added to 2024 MLS All-Star Roster",
+    title: "West Kirby Warriors Forward Gabriel Pec Added to 2024 All-Star Roster",
     imageUrl: "../../Images/teamPhoto.png",
     path: "article3",
   },
   {
-    title: "LA Galaxy Forward Joseph Paintsil named to MLS Team of the Matchday presented by Audi for Matchday 28",
+    title: "West Kirby Warriors Forward Joseph Paintsil named to Team of the Matchday presented by Audi for Matchday 28",
     imageUrl: "../../Images/DSCF0001.JPG",
     path: "article4",
   },
   {
-    title: "LA Galaxy Forward Joseph Paintsil named to MLS Team of the Matchday presented by Audi for Matchday 28",
+    title: "West Kirby Warriors Forward Joseph Paintsil named to Team of the Matchday presented by Audi for Matchday 28",
     imageUrl: "../../Images/DSCF0001.JPG",
     path: "article5",
   },
   {
-    title: "LA Galaxy Forward Joseph Paintsil named to MLS Team of the Matchday presented by Audi for Matchday 28",
+    title: "West Kirby Warriors Forward Joseph Paintsil named to Team of the Matchday presented by Audi for Matchday 28",
     imageUrl: "../../Images/DSCF0001.JPG",
     path: "article6",
   },
   {
-    title: "Match Report: LA Galaxy Earn 3-2 Victory Over Portland Timbers at Dignity Health Sports Park on Saturday Night",
+    title: "Match Report: West Kirby Warriors Earn 3-2 Victory Over Portland Timbers at Dignity Health Sports Park on Saturday Night",
     imageUrl: "../../Images/DSCF0001.JPG",
     path: "article7",
   },
   {
-    title: "Match Report: LA Galaxy Earn 3-2 Victory Over Portland Timbers at Dignity Health Sports Park on Saturday Night",
+    title: "Match Report: West Kirby Warriors Earn 3-2 Victory Over Portland Timbers at Dignity Health Sports Park on Saturday Night",
     imageUrl: "../../Images/DSCF0001.JPG",
     path: "article8",
   },

@@ -27,6 +27,10 @@
   justify-content: center;
 }
 
+.gallery-cards-container h2{
+  font-size: 1.3rem;
+}
+
 .gallery-card {
   display: flex;
   flex-direction: column;
