@@ -3,20 +3,20 @@ import ReactPlayer from "react-player";
 import "./VideoPage.css";
 
 // Import local video files for list
-import video1 from "../../Videos/IMG_2751.MOV";
+import video1 from "../../Videos/IMG_2834.MOV";
 import video2 from "../../Videos/IMG_2752.MOV";
-import video3 from "../../Videos/IMG_2751.MOV";
+import video3 from "../../Videos/IMG_2776.MOV";
 import video4 from "../../Videos/IMG_2752.MOV";
-import video5 from "../../Videos/IMG_2751.MOV";
-import video6 from "../../Videos/IMG_2752.MOV";
+import video5 from "../../Videos/IMG_2834.MOV";
+import video6 from "../../Videos/IMG_2776.MOV";
 
 // Import local video files for slider
 import sliderVideo1 from "../../Videos/IMG_2776.MOV";
-import sliderVideo2 from "../../Videos/IMG_2776.MOV";
-import sliderVideo3 from "../../Videos/IMG_2776.MOV";
+import sliderVideo2 from "../../Videos/IMG_2752.MOV";
+import sliderVideo3 from "../../Videos/IMG_2834.MOV";
 import sliderVideo4 from "../../Videos/IMG_2776.MOV";
-import sliderVideo5 from "../../Videos/IMG_2776.MOV";
-import sliderVideo6 from "../../Videos/IMG_2776.MOV";
+import sliderVideo5 from "../../Videos/IMG_2752.MOV";
+import sliderVideo6 from "../../Videos/IMG_2834.MOV";
 
 // Import local thumbnails for list
 import thumb1 from "../../Images/DSCF0002.JPG";
@@ -43,13 +43,13 @@ const VideoPage = () => {
   const videoPlayerRef = useRef(null);
 
   const listVideos = [
-    { id: 1, title: "Pups at the Pitch", file: video1, thumbnail: thumb1 },
-    { id: 2, title: "Highlights: LA Galaxy Defeat Portland Timbers", file: video2, thumbnail: thumb2 },
-    { id: 3, title: "Goal: J. Paintsil vs. POR, 58'", file: video3, thumbnail: thumb3 },
-    { id: 4, title: "Goal: R. Puig vs. POR, 48'", file: video4, thumbnail: thumb4 },
-    { id: 5, title: "Goal: G. Pec vs. POR, 37'", file: video5, thumbnail: thumb5 },
-    { id: 6, title: "Highlights: LA Galaxy vs. Colorado Rapids | July 17, 2024", file: video6, thumbnail: thumb6 },
-    { id: 7, title: "Highlights: LA Galaxy vs. Colorado Rapids | July 17, 2024", file: video6, thumbnail: thumb6 },
+    { id: 1, title: "Video 1", file: video1, thumbnail: thumb1 },
+    { id: 2, title: "Highlights: Team 1 Defeat Team 2", file: video2, thumbnail: thumb2 },
+    { id: 3, title: "Highlight 1'", file: video3, thumbnail: thumb3 },
+    { id: 4, title: "Highlight 2'", file: video4, thumbnail: thumb4 },
+    { id: 5, title: "Highlight 3'", file: video5, thumbnail: thumb5 },
+    { id: 6, title: "Highlights: Team 1 vs. Team 3 | July 17, 2024", file: video6, thumbnail: thumb6 },
+    { id: 7, title: "Highlights: Team 2 vs. Team 4 | July 17, 2024", file: video6, thumbnail: thumb6 },
   ];
 
   const sliderVideos = [
@@ -57,7 +57,7 @@ const VideoPage = () => {
     { id: 9, title: "New Video 2", file: sliderVideo2, thumbnail: sliderThumb2 },
     { id: 10, title: "New Video 3", file: sliderVideo3, thumbnail: sliderThumb3 },
     { id: 11, title: "New Video 4", file: sliderVideo4, thumbnail: sliderThumb4 },
-    { id: 12, title: "Highlights: LA Galaxy vs. Colorado Rapids", file: sliderVideo5, thumbnail: sliderThumb5 },
+    { id: 12, title: "Highlights: Team 1 vs. Team 3", file: sliderVideo5, thumbnail: sliderThumb5 },
     { id: 13, title: "New Video 6", file: sliderVideo6, thumbnail: sliderThumb6 },
     { id: 14, title: "New Video 6", file: sliderVideo6, thumbnail: sliderThumb6 },
   ];
