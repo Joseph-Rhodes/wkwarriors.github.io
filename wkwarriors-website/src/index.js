@@ -15,7 +15,6 @@ import Team from "./Pages/Team";
 import TeamRecords from "./Pages/Team/TeamRecords";
 import Stats from "./Pages/Team/Stats";
 import Schedule from "./Pages/Schedule";
-import PrintableSchedule from "./Pages/Schedule/PrintableSchedule";
 import News from "./Pages/News";
 import LatestNews from "./Pages/News/LatestNews";
 import Photos from "./Pages/Media/Photos";
@@ -57,10 +56,6 @@ const router = createBrowserRouter([
       {
         path: "schedule",
         element: <Schedule />,
-      },
-      {
-        path: "printable-schedule",
-        element: <PrintableSchedule />,
       },
       {
         path: "news",

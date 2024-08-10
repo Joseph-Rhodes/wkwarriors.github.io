@@ -25,10 +25,6 @@ export const menuItemsData = [
         title: 'Online Schedule',
         url: 'schedule',
       },
-      {
-        title: 'Printable Schedule',
-        url: 'printable-schedule',
-      },
       
     ],
   },
