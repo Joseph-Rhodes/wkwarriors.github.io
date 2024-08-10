@@ -148,7 +148,7 @@ const RosterPage = () => {
   return (
     <div className="roster-container">
       <div className="roster-container-header">
-        <h1>West Kirby Warriors Team Roster</h1>
+        <h1>West Kirby Warriors Team</h1>
         <button className="list-button" onClick={toggleView}>
           {isListView ? "Card View" : "List View"}
         </button>
