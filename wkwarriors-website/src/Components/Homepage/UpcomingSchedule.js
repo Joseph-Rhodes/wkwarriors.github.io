@@ -15,12 +15,12 @@ const UpcomingSchedule = () => {
                 style={{ textDecoration: "none" }}
                 className="game-name"
               >
-                Game vs. Woolston Wizards
+                Game vs. Phoenix24
               </Link>
-              <p>Warrington Summer League</p>
-              <p>Fri, Jun 21 | Liverpool, UK</p>
+              <p>Exhibition</p>
+              <p>30-Aug-24 | Liverpool, UK</p>
             </div>
-            <div className="game-item">
+            {/* <div className="game-item">
               <Link
                 to="/woolstonwizardsj21"
                 style={{ textDecoration: "none" }}
@@ -41,7 +41,7 @@ const UpcomingSchedule = () => {
               </Link>
               <p>Warrington Summer League</p>
               <p>Fri, Jun 21 | Liverpool, UK</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="button-container">

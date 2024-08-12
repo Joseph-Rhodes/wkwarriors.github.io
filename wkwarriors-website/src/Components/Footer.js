@@ -20,8 +20,7 @@ function Footer() {
           <div className="col">
             <h4>Schedule</h4>
             <ul className="list-unstyled">
-              <li><Link to="/schedule">Online Schedule</Link></li>
-              <li><Link to="/printable-schedule">Print the schedule</Link></li>
+              <li><Link to="/schedule">Schedule</Link></li>
             </ul>
           </div>
           {/* Column3 */}
