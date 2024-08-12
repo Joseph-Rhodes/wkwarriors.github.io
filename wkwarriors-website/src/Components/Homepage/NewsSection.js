@@ -22,7 +22,7 @@ const articles = [
       "USA WOMEN RENEW 2024 FIBA 3X3 WOMEN'S SERIES ACTION WITH PITSTOP IN QUEBEC",
     description:
       "Following April’s runner-up finish in Springfield at the Naismith Basketball Hall of Fame, the USA women will recommence their 2024 FIBA 3x3 Women’s Series play at Quebec 2024 from June 29-30 in Canada.",
-    image: `../../Images/wkwLogo.png`,
+    image: `../../Images/DSCF0003.JPG`,
     path: "article2",
   },
   {
