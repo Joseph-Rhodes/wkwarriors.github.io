@@ -5,89 +5,160 @@ import "./Roster.css";
 const players = [
   {
     id: 1,
-    number: 24,
-    name: "Player One",
+    number: 0,
+    name: "Dom Hardwick",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown One",
-    height: "6'0\"",
-    weight: "180 lbs",
-    age: 23,
-    position: "SF",
-    points: 10,
-    rebounds: 5,
-    assists: 3,
+    height: "5'11\"",
+    age: 19,  // Based on YOB 2005
+    position: "SG/PG",
+    points: 13.2,
+    rebounds: 5.4,
+    assists: 3.3,
+    blocks: 0.2,
+    signed: 2024,
   },
   {
     id: 2,
-    number: 24,
-    name: "Player Two",
+    number: 2,
+    name: "Anthony Tatar",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown Two",
-    height: "6'2\"",
-    weight: "190 lbs",
-    age: 23,
-    position: "SG",
-    points: 12,
-    rebounds: 6,
-    assists: 4,
+    height: "6'6\"",
+    age: 19,  // Based on YOB 2005
+    position: "C",
+    points: 4.6,
+    rebounds: 8.7,
+    assists: 2.8,
+    blocks: 4.1,
+    signed: 2021,
   },
   {
     id: 3,
-    number: 24,
-    name: "Player Three",
+    number: 3,
+    name: "Ben Cashin",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown Three",
-    height: "6'1\"",
-    weight: "185 lbs",
-    age: 23,
-    position: "PF",
-    points: 11,
-    rebounds: 5.5,
-    assists: 3.5,
+    height: "6'4\"",
+    age: 20,  // Based on YOB 2004
+    position: "SF/PF",
+    points: 4.9,
+    rebounds: 7.5,
+    assists: 2.9,
+    blocks: 2.3,
+    signed: 2021,
   },
   {
     id: 4,
-    number: 24,
-    name: "Player Four",
+    number: 4,
+    name: "Nathan Hallam",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown Four",
-    height: "6'3\"",
-    weight: "195 lbs",
-    age: 23,
-    position: "SF",
-    points: 14,
-    rebounds: 7,
-    assists: 5,
+    height: "6'1\"",
+    age: 19,  // Based on YOB 2005
+    position: "SF/PF",
+    points: 12.0,
+    rebounds: 3.0,
+    assists: 3.0,
+    blocks: 0.0,
+    signed: 2023,
   },
   {
     id: 5,
-    number: 24,
-    name: "Player Five",
+    number: 7,
+    name: "Patrick James",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown Five",
-    height: "6'4\"",
-    weight: "200 lbs",
-    age: 23,
-    position: "PG",
-    points: 16,
-    rebounds: 8,
-    assists: 6,
+    height: "6'1\"",
+    age: 27,  // Based on YOB 1997
+    position: "SG/PG",
+    points: 13.5,
+    rebounds: 5.1,
+    assists: 3.0,
+    blocks: 1.0,
+    signed: 2024,
   },
   {
     id: 6,
-    number: 24,
-    name: "Player Six",
+    number: 11,
+    name: "Anthony Romba",
     image: "../../Images/IMG_2678.JPG",
-    hometown: "Hometown Six",
-    height: "6'5\"",
-    weight: "210 lbs",
-    age: 23,
-    position: "C",
-    points: 18,
-    rebounds: 9,
-    assists: 7,
+    height: "6'3\"",
+    age: 26,  // Based on YOB 1998
+    position: "PG",
+    points: 27.7,
+    rebounds: 7.8,
+    assists: 4.2,
+    blocks: 3.2,
+    signed: 2023,
+  },
+  {
+    id: 7,
+    number: 12,
+    name: "Thomas Ellwood",
+    image: "../../Images/IMG_2678.JPG",
+    height: "6'3\"",
+    age: 23,  // Based on YOB 2001
+    position: "C/SF",
+    points: 20.5,
+    rebounds: 8.5,
+    assists: 4.5,
+    blocks: 3.5,
+    signed: 2024,
+  },
+  {
+    id: 8,
+    number: 15,
+    name: "Roman Johnson",
+    image: "../../Images/IMG_2678.JPG",
+    height: "5'11\"",
+    age: 16,  // Based on YOB 2008
+    position: "PF",
+    points: 4.2,
+    rebounds: 3.6,
+    assists: 3.1,
+    blocks: 0.0,
+    signed: 2024,
+  },
+  {
+    id: 9,
+    number: 16,
+    name: "Dan Merrett",
+    image: "../../Images/IMG_2678.JPG",
+    height: "6'1\"",
+    age: 20,  // Based on YOB 2004
+    position: "SF",
+    points: 4.4,
+    rebounds: 4.3,
+    assists: 2.7,
+    blocks: 0.2,
+    signed: 2021,
+  },
+  {
+    id: 10,
+    number: 35,
+    name: "Riley Johnson",
+    image: "../../Images/IMG_2678.JPG",
+    height: "6'3\"",
+    age: 19,  // Based on YOB 2005
+    position: "SG/SF",
+    points: 12.5,
+    rebounds: 5.8,
+    assists: 4.0,
+    blocks: 1.0,
+    signed: 2024,
+  },
+  {
+    id: 11,
+    number: 95,
+    name: "Greg Blair",
+    image: "../../Images/IMG_2678.JPG",
+    height: "6'2\"",
+    age: 19,  // Based on YOB 2005
+    position: "SG/SF",
+    points: 14.7,
+    rebounds: 6.5,
+    assists: 4.7,
+    blocks: 0.6,
+    signed: 2023,
   },
 ];
+
 
 const coaches = [
   {
@@ -163,13 +234,13 @@ const RosterPage = () => {
                   <th className={getHeaderClass("name")} onClick={() => handleSort("name")}>Name</th>
                   <th className={getHeaderClass("number")} onClick={() => handleSort("number")}>Number</th>
                   <th className={getHeaderClass("position")} onClick={() => handleSort("position")}>Position</th>
-                  <th className={getHeaderClass("height")} onClick={() => handleSort("height")}>Height</th>
-                  <th className={getHeaderClass("weight")} onClick={() => handleSort("weight")}>Weight</th>
+                  <th className={getHeaderClass("signed")} onClick={() => handleSort("signed")}>Year Signed</th>
                   <th className={getHeaderClass("age")} onClick={() => handleSort("age")}>Age</th>
-                  <th className={getHeaderClass("hometown")} onClick={() => handleSort("hometown")}>Hometown</th>
+                  <th className={getHeaderClass("height")} onClick={() => handleSort("height")}>Height</th>
                   <th className={getHeaderClass("points")} onClick={() => handleSort("points")}>PPG</th>
                   <th className={getHeaderClass("rebounds")} onClick={() => handleSort("rebounds")}>RPG</th>
                   <th className={getHeaderClass("assists")} onClick={() => handleSort("assists")}>APG</th>
+                  <th className={getHeaderClass("blocks")} onClick={() => handleSort("blocks")}>BPG</th>
                 </tr>
               </thead>
               <tbody>
@@ -178,13 +249,13 @@ const RosterPage = () => {
                     <td>{player.name}</td>
                     <td>{player.number}</td>
                     <td>{player.position}</td>
-                    <td>{player.height}</td>
-                    <td>{player.weight}</td>
+                    <td>{player.signed}</td>
                     <td>{player.age}</td>
-                    <td>{player.hometown}</td>
+                    <td>{player.height}</td>
                     <td>{player.points}</td>
                     <td>{player.rebounds}</td>
                     <td>{player.assists}</td>
+                    <td>{player.blocks}</td>
                   </tr>
                 ))}
               </tbody>
@@ -221,11 +292,10 @@ const RosterPage = () => {
                 </div>
                 <div className="player-info">
                   <p>
-                    <span className="bold">Hometown:</span> {player.hometown}
+                    <span className="bold">Year Signed:</span> {player.signed}
                   </p>
                   <p>
-                    <span className="bold">Height:</span> {player.height}{" "}
-                    <span className="bold"> Weight:</span> {player.weight}
+                    <span className="bold">Height:</span> {player.height}
                   </p>
                   <p>
                     <span className="bold">Age:</span> {player.age}
@@ -234,13 +304,10 @@ const RosterPage = () => {
                     <span className="bold">Position:</span> {player.position}
                   </p>
                   <p>
-                    <span className="bold">PPG:</span> {player.points}
+                    <span className="bold">PPG:</span> {player.points} {"   "} <span className="bold">APG:</span> {player.rebounds}
                   </p>
                   <p>
-                    <span className="bold">RPG:</span> {player.rebounds}
-                  </p>
-                  <p>
-                    <span className="bold">APG:</span> {player.assists}
+                    <span className="bold">RPG:</span> {player.rebounds} {"  "} <span className="bold">BPG:</span> {player.blocks}
                   </p>
                 </div>
               </div>
