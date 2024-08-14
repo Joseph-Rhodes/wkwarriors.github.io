@@ -15,11 +15,11 @@ const TeamRecordsPage = () => {
           <div className="player large">
             <div className="team-records">
               <h3>
-                26.6 <span>PTS</span>
+                33 <span>PTS</span>
               </h3>
               <p>
-                <span>Donovan</span>
-                <strong>Mitchell</strong>
+                <span>Anthony</span>
+                <strong>Rombaut</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
@@ -27,11 +27,11 @@ const TeamRecordsPage = () => {
           <div className="player small">
             <div className="team-records">
               <h3>
-                18.0 <span>PTS</span>
+                28 <span>PTS</span>
               </h3>
               <p>
-                <span>Darius</span>
-                <strong>Garland</strong>
+                <span>Thomas</span>
+                <strong>Ellwood</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
@@ -39,11 +39,11 @@ const TeamRecordsPage = () => {
           <div className="player small2">
             <div className="team-records">
               <h3>
-                16.5 <span>PTS</span>
+                27 <span>PTS</span>
               </h3>
               <p>
-                <span>Jarrett</span>
-                <strong>Allen</strong>
+                <span>Joseph</span>
+                <strong>Rhodes</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
@@ -53,16 +53,16 @@ const TeamRecordsPage = () => {
 
       {/* Rebound Category */}
       <div className="category">
-        <h2>Rebound Record</h2>
+        <h2>Rebound Record (approx)</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
               <h3>
-                10 <span>REBS</span>
+                12 <span>REBS</span>
               </h3>
               <p>
-                <span>Donovan</span>
-                <strong>Mitchell</strong>
+                <span>Thomas</span>
+                <strong>Ellwood</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
@@ -70,11 +70,11 @@ const TeamRecordsPage = () => {
           <div className="player small">
             <div className="team-records">
               <h3>
-                7 <span>REBS</span>
+                11 <span>REBS</span>
               </h3>
               <p>
-                <span>Darius</span>
-                <strong>Garland</strong>
+                <span>Anthony</span>
+                <strong>Tatar</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
@@ -82,29 +82,30 @@ const TeamRecordsPage = () => {
           <div className="player small2">
             <div className="team-records">
               <h3>
-                4 <span>REBS</span>
+                10 <span>REBS</span>
               </h3>
               <p>
-                <span>Jarrett</span>
-                <strong>Allen</strong>
+                <span>Anthony</span>
+                <strong>Rombaut</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
           </div>
         </div>
       </div>
-      {/* Assits Category */}
+      
+      {/* Assist Category */}
       <div className="category">
-        <h2>Assit Record</h2>
+        <h2>Assist Record</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
               <h3>
-                10 <span>ASTS</span>
+                8 <span>ASTS</span>
               </h3>
               <p>
-                <span>Donovan</span>
-                <strong>Mitchell</strong>
+                <span>Thomas</span>
+                <strong>Ellwood</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
@@ -115,8 +116,8 @@ const TeamRecordsPage = () => {
                 7 <span>ASTS</span>
               </h3>
               <p>
-                <span>Darius</span>
-                <strong>Garland</strong>
+                <span>Greg</span>
+                <strong>Blair</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
@@ -124,11 +125,11 @@ const TeamRecordsPage = () => {
           <div className="player small2">
             <div className="team-records">
               <h3>
-                4 <span>ASTS</span>
+                7 <span>ASTS</span>
               </h3>
               <p>
-                <span>Jarrett</span>
-                <strong>Allen</strong>
+                <span>Anthony</span>
+                <strong>Rombaut</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
@@ -136,62 +137,18 @@ const TeamRecordsPage = () => {
         </div>
       </div>
 
-      {/* Steals Category */}
-      <div className="category">
-        <h2>Steal Record</h2>
-        <div className="record">
-          <div className="player large">
-            <div className="team-records">
-              <h3>
-                10 <span>STLS</span>
-              </h3>
-              <p>
-                <span>Donovan</span>
-                <strong>Mitchell</strong>
-              </p>
-            </div>
-            <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
-          </div>
-          <div className="player small">
-            <div className="team-records">
-              <h3>
-                7 <span>STLS</span>
-              </h3>
-              <p>
-                <span>Darius</span>
-                <strong>Garland</strong>
-              </p>
-            </div>
-            <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
-          </div>
-          <div className="player small2">
-            <div className="team-records">
-              <h3>
-                4 <span>STLS</span>
-              </h3>
-              <p>
-                <span>Jarrett</span>
-                <strong>Allen</strong>
-              </p>
-            </div>
-            <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
-          </div>
-        </div>
-      </div>
-
-
-      {/* Blocks Category */}
+      {/* Block Category */}
       <div className="category">
         <h2>Block Record</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
               <h3>
-                10 <span>BLKS</span>
+                8 <span>BLKS</span>
               </h3>
               <p>
-                <span>Donovan</span>
-                <strong>Mitchell</strong>
+                <span>Anthony</span>
+                <strong>Tatar</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
@@ -199,11 +156,11 @@ const TeamRecordsPage = () => {
           <div className="player small">
             <div className="team-records">
               <h3>
-                7 <span>BLKS</span>
+                6 <span>BLKS</span>
               </h3>
               <p>
-                <span>Darius</span>
-                <strong>Garland</strong>
+                <span>Anthony</span>
+                <strong>Rombaut</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
@@ -211,17 +168,61 @@ const TeamRecordsPage = () => {
           <div className="player small2">
             <div className="team-records">
               <h3>
-                4 <span>BLKS</span>
+                5 <span>BLKS</span>
               </h3>
               <p>
-                <span>Jarrett</span>
-                <strong>Allen</strong>
+                <span>Thomas</span>
+                <strong>Ellwood</strong>
               </p>
             </div>
             <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
           </div>
         </div>
       </div>
+
+      {/* Steal Category */}
+      <div className="category">
+        <h2>Steal Record</h2>
+        <div className="record">
+          <div className="player large">
+            <div className="team-records">
+              <h3>
+                5 <span>STLS</span>
+              </h3>
+              <p>
+                <span>Joseph</span>
+                <strong>Rhodes</strong>
+              </p>
+            </div>
+            <img src="../../Images/IMG_2697-Photoroom.png" alt="Donovan Mitchell" />
+          </div>
+          <div className="player small">
+            <div className="team-records">
+              <h3>
+                4 <span>STLS</span>
+              </h3>
+              <p>
+                <span>Dom</span>
+                <strong>Hardwick</strong>
+              </p>
+            </div>
+            <img src="../../Images/IMG_2697-Photoroom.png" alt="Darius Garland" />
+          </div>
+          <div className="player small2">
+            <div className="team-records">
+              <h3>
+                3 <span>STLS</span>
+              </h3>
+              <p>
+                <span>Anthony</span>
+                <strong>Rombaut</strong>
+              </p>
+            </div>
+            <img src="../../Images/IMG_2697-Photoroom.png" alt="Jarrett Allen" />
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
