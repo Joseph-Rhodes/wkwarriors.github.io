@@ -7,6 +7,7 @@
   margin: 1rem auto;
 }
 
+
 .team-records-container-header {
   width: 100%;
   display: flex;
@@ -26,7 +27,8 @@
 }
 
 .category h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
+  color: white;
   font-weight: bold;
   margin-bottom: 1rem;
 }

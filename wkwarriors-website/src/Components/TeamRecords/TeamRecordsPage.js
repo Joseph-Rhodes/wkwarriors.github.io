@@ -10,7 +10,7 @@ const TeamRecordsPage = () => {
 
       {/* Points Category */}
       <div className="category">
-        <h2>Point Record</h2>
+        <h2>Points</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
@@ -53,7 +53,7 @@ const TeamRecordsPage = () => {
 
       {/* Rebound Category */}
       <div className="category">
-        <h2>Rebound Record (approx)</h2>
+        <h2>Rebounds</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
@@ -96,7 +96,7 @@ const TeamRecordsPage = () => {
       
       {/* Assist Category */}
       <div className="category">
-        <h2>Assist Record</h2>
+        <h2>Assists</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
@@ -139,7 +139,7 @@ const TeamRecordsPage = () => {
 
       {/* Block Category */}
       <div className="category">
-        <h2>Block Record</h2>
+        <h2>Blocks</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">
@@ -182,7 +182,7 @@ const TeamRecordsPage = () => {
 
       {/* Steal Category */}
       <div className="category">
-        <h2>Steal Record</h2>
+        <h2>Steals</h2>
         <div className="record">
           <div className="player large">
             <div className="team-records">

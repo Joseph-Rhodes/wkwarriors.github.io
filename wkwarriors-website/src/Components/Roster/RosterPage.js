@@ -7,7 +7,7 @@ const players = [
     id: 1,
     number: 0,
     name: "Dom Hardwick",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "5'11\"",
     age: 19,  // Based on YOB 2005
     position: "SG/PG",
@@ -21,7 +21,7 @@ const players = [
     id: 2,
     number: 2,
     name: "Anthony Tatar",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'6\"",
     age: 19,  // Based on YOB 2005
     position: "C",
@@ -35,7 +35,7 @@ const players = [
     id: 3,
     number: 3,
     name: "Ben Cashin",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'4\"",
     age: 20,  // Based on YOB 2004
     position: "SF/PF",
@@ -49,7 +49,7 @@ const players = [
     id: 4,
     number: 4,
     name: "Nathan Hallam",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'1\"",
     age: 19,  // Based on YOB 2005
     position: "SF/PF",
@@ -63,7 +63,7 @@ const players = [
     id: 5,
     number: 7,
     name: "Patrick James",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'1\"",
     age: 27,  // Based on YOB 1997
     position: "SG/PG",
@@ -77,7 +77,7 @@ const players = [
     id: 6,
     number: 11,
     name: "Anthony Romba",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'3\"",
     age: 26,  // Based on YOB 1998
     position: "PG",
@@ -91,7 +91,7 @@ const players = [
     id: 7,
     number: 12,
     name: "Thomas Ellwood",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'3\"",
     age: 23,  // Based on YOB 2001
     position: "C/SF",
@@ -105,7 +105,7 @@ const players = [
     id: 8,
     number: 15,
     name: "Roman Johnson",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "5'11\"",
     age: 16,  // Based on YOB 2008
     position: "PF",
@@ -119,7 +119,7 @@ const players = [
     id: 9,
     number: 16,
     name: "Dan Merrett",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'1\"",
     age: 20,  // Based on YOB 2004
     position: "SF",
@@ -133,7 +133,7 @@ const players = [
     id: 10,
     number: 35,
     name: "Riley Johnson",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'3\"",
     age: 19,  // Based on YOB 2005
     position: "SG/SF",
@@ -147,7 +147,7 @@ const players = [
     id: 11,
     number: 95,
     name: "Greg Blair",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
     height: "6'2\"",
     age: 19,  // Based on YOB 2005
     position: "SG/SF",
@@ -165,25 +165,25 @@ const coaches = [
     id: 1,
     title: "Head Coach",
     name: "Coach One",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
   },
   {
     id: 2,
     title: "Assistant Head Coach",
     name: "Coach Two",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
   },
   {
     id: 3,
     title: "Shooting Coach",
     name: "Coach Three",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
   },
   {
     id: 4,
     title: "Passing Coach",
     name: "Coach Two",
-    image: "../../Images/IMG_2678.JPG",
+    image: "../../Images/southeast-asian-man-cartoon-illustration-vibrant-vector-portrait_1308-153741.avif",
   },
 ];
 const RosterPage = () => {
