@@ -5,9 +5,11 @@
 /.pnp
 .pnp.js
 
+# Files with keys
+src/Components/Contact/Contact.js
+
 # testing
 /coverage
-/Contact
 
 # production
 /build
