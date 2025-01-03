@@ -43,9 +43,9 @@ function Footer() {
             <h4>Connect</h4>
             <ul className="list-unstyled social">
               <li>
-                <a href="#">
+                <Link to="/contact">
                   <i className="far fa-envelope"></i>
-                </a>
+                </Link>
               </li>
               <li>
                 <a
@@ -57,17 +57,9 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
+                <a href="https://www.youtube.com/@warriorswk"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <i className="fab fa-youtube"></i>
                 </a>
               </li>

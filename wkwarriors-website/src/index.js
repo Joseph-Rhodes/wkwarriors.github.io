@@ -30,6 +30,7 @@ import Article5 from "./Components/Articles/Article5";
 import Article6 from "./Components/Articles/Article6";
 import Article7 from "./Components/Articles/Article7";
 import Article8 from "./Components/Articles/Article8";
+import Contact from "./Components/Contact/Contact";
 
 
 const router = createBrowserRouter([
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path: "photos",
         element: <Photos />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
       {
         path: "videos",

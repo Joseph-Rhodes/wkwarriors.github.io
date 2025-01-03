@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { menuItemsData } from "../menuItemsData";
 import MobileMenuItems from "./MobileMenuItems.js";
 
+
 const MobileNav = () => {
   const depthLevel = 0;
   const [showMenu, setShowMenu] = useState(false);
@@ -52,11 +53,9 @@ const MobileNav = () => {
             />
           ))}
         </ul>
-        <div className="social-icons">
-          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+        <div className="social-icons" style={{ display: 'flex', justifyContent: 'center', gap: '2.5rem', marginTop : '-2.5rem' }}>  
           <a href="https://www.instagram.com/warriorswk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="https://www.nba.com/cavaliers/roster" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/@warriorswk" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
         </div>
       </div>
     </nav>

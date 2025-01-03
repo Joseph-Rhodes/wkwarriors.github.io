@@ -54,4 +54,9 @@ export const menuItemsData = [
       
     ],
   },
+  {
+    title: 'Contact Us',
+    url: '/contact',
+    
+  },
 ];
