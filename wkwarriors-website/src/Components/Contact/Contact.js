@@ -11,7 +11,7 @@ const Contact = () => {
 
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "f8714430-4987-4f34-8294-4fdc74bd71fc");
+    formData.append("access_key", "WKW Warriors KEy"); //need to put the wkwarriors key here
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
