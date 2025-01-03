@@ -6,7 +6,7 @@
 .pnp.js
 
 # Files with keys
-src/Components/Contact/Contact.js
+/src/Components/Contact
 
 # testing
 /coverage
