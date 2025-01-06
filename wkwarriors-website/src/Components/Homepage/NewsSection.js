@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NewSection.css";
 import { Link } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
+
 
 const articles = [
   {
@@ -130,7 +130,6 @@ const NewsSection = () => {
             </button>
           )}
       </div>
-      <Analytics />    
     </div>
   );
 };
