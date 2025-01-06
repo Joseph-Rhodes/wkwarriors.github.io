@@ -15,7 +15,7 @@ const App = () => {
       <MediaSection /> 
 
       {/* Track the Analytics for the website */}
-      {/* <Analytics />     */}
+      <Analytics />    
     </div>
   );
 };
