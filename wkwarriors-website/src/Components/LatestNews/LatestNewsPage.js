@@ -55,7 +55,7 @@ const LatestNewsPage = () => {
       </div>
       <div className="news-items-container">
         {newsData.map((news, index) => (
-          <Link key={index} to={news.path} style={{ textDecoration: 'none' }}>
+          <Link key={index} to={news.path} style={{textDecoration: 'none' }}>
             <NewsItem
               title={news.title}
               imageUrl={news.imageUrl}

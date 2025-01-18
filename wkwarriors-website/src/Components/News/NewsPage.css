@@ -33,6 +33,7 @@
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-weight: bolder;
+  color: rgba(255, 255, 255, 0.819);
 }
 
 .main-news p {
@@ -75,6 +76,7 @@
 .supplement-article h3 {
   margin-right: 1rem;
   font-size: 1.1rem; /* Adjust the font size as needed */
+  color: rgba(255, 255, 255, 0.819);
 }
 
 .supplement-article-link,

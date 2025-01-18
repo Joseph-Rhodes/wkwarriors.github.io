@@ -1,7 +1,6 @@
 import React from 'react';
 import { menuItemsData } from '../menuItemsData';
 import MenuItems from './MenuItems';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -13,9 +12,7 @@ const Navbar = () => {
           })}
         </ul>
         <div className="social-icons">
-          <Link to="/contact">
-            <i className="far fa-envelope"></i>
-          </Link>
+          
           <a href="https://www.instagram.com/warriorswk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>

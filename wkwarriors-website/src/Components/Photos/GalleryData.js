@@ -10,7 +10,31 @@ const galleries = [
     id: 2,
     title: 'Highlights of Player 1',
     coverPhoto: '../../Images/DSCF0003.JPG',
-    photos: ['../../Images/teamPhoto.png', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
+    photos: ['../../Images/test1.jpg', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
+  },
+  {
+    id: 3,
+    title: 'Highlights of Player 1',
+    coverPhoto: '../../Images/DSCF0003.JPG',
+    photos: ['../../Images/test1.jpg', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
+  },
+  {
+    id: 4,
+    title: 'Highlights of Player 1',
+    coverPhoto: '../../Images/DSCF0003.JPG',
+    photos: ['../../Images/test1.jpg', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
+  },
+  {
+    id: 5,
+    title: 'Highlights of Player 1',
+    coverPhoto: '../../Images/DSCF0003.JPG',
+    photos: ['../../Images/test1.jpg', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
+  },
+  {
+    id: 6,
+    title: 'Highlights of Player 1',
+    coverPhoto: '../../Images/DSCF0003.JPG',
+    photos: ['../../Images/test1.jpg', '../../Images/DSCF0002.JPG', '../../Images/DSCF0001.JPG', '../../Images/DSCF0003.JPG'],
   },
   // Add more galleries as needed
 ];
