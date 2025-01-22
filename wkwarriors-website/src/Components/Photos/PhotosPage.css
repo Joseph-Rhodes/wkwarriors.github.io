@@ -18,6 +18,7 @@
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  
 }
 
 .gallery-cards-container {
@@ -29,6 +30,7 @@
 
 .gallery-cards-container h2{
   font-size: 1.3rem;
+  color: white;
 }
 
 .gallery-card {
